@@ -8,6 +8,8 @@ cd /d "%~dp0"
 set "GIT="
 where git >NUL 2>&1 && set "GIT=git"
 if not defined GIT if exist "%ProgramFiles%\Git\cmd\git.exe" set "GIT=%ProgramFiles%\Git\cmd\git.exe"
+rem fall back to the Git bundled with GitHub Desktop (includes Git Credential Manager)
+if not defined GIT for /d %%D in ("%LOCALAPPDATA%\GitHubDesktop\app-*") do if exist "%%D\resources\app\git\cmd\git.exe" set "GIT=%%D\resources\app\git\cmd\git.exe"
 if not defined GIT goto :nogit
 if not exist .git goto :norepo
 if /i "%~1"=="auto" set "GCM_INTERACTIVE=never"
@@ -26,7 +28,7 @@ if /i not "%~1"=="auto" pause
 exit /b 0
 
 :nogit
-echo [publish] skipped: Git for Windows is not installed (https://git-scm.com/download/win)
+echo [publish] skipped: Git was not found (install GitHub Desktop or Git for Windows)
 if /i not "%~1"=="auto" pause
 exit /b 2
 
