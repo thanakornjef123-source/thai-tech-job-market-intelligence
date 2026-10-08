@@ -1,0 +1,10 @@
+# แดชบอร์ดและท่อข้อมูล / dashboard and pipeline
+streamlit>=1.50
+altair>=5
+duckdb>=1.1
+pandas>=2
+pillow>=10
+# ตัวสกัดด้วย LLM (ใช้เฉพาะตอนรันท่อข้อมูลในเครื่อง ต้องมีคีย์ใน .env) / LLM extraction (local pipeline only)
+google-genai>=1.0
+# ชุดทดสอบ / tests
+pytest>=8

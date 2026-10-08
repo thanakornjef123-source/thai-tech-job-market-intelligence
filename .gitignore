@@ -1,0 +1,47 @@
+# ---- ความลับ / secrets ----
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ---- ฐานข้อมูลและข้อมูลที่สร้างใหม่ได้ / databases & regenerable data ----
+*.db
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+data/raw/
+data/staging/
+data/extracted/
+data/marts/
+data/health.json
+data/discover_*.json
+data/snapshot.tmp/
+data/gold/drafts.jsonl
+data/gold/sample.jsonl
+# เก็บไว้ใน repo: data/snapshot/ (ข้อมูลของเว็บออนไลน์), data/eval/ (ผลวัด), data/gold/labels.jsonl (ป้ายเฉลย)
+
+# ---- สภาพแวดล้อม Python / Python environments ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---- log และไฟล์ชั่วคราว / logs & temp ----
+logs/
+*_log.txt
+*.tmp
+*.part
+
+# ---- โฟลเดอร์ที่เครื่องมืออื่นสร้างเอง / tool-generated folders ----
+.agents/
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- บันทึกส่วนตัว / personal notes ----
+docs/INTERVIEW_NOTES.md
