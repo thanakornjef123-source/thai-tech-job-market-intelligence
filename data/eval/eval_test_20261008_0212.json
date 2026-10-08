@@ -1,0 +1,106 @@
+{
+ "n_postings": 50,
+ "n_missing_predictions": 0,
+ "skills": {
+  "precision": 0.902,
+  "recall": 0.699,
+  "f1": 0.788,
+  "tp": 444,
+  "fp": 48,
+  "fn": 191
+ },
+ "seniority_accuracy": 0.88,
+ "role_family_accuracy": 1.0,
+ "salary_stated_accuracy": 1.0,
+ "salary_value_exact": "0/0",
+ "top_missed_skills": [
+  [
+   "rabbitmq",
+   6
+  ],
+  [
+   "claude code",
+   5
+  ],
+  [
+   "cursor",
+   5
+  ],
+  [
+   "a/b testing",
+   5
+  ],
+  [
+   "ai agents",
+   4
+  ],
+  [
+   "opentelemetry",
+   3
+  ],
+  [
+   "unit testing",
+   3
+  ],
+  [
+   "solid",
+   3
+  ],
+  [
+   "security testing",
+   3
+  ],
+  [
+   "quarkus",
+   2
+  ]
+ ],
+ "top_extra_skills": [
+  [
+   "statistics",
+   7
+  ],
+  [
+   "requirements gathering",
+   5
+  ],
+  [
+   "computer vision",
+   5
+  ],
+  [
+   "github",
+   4
+  ],
+  [
+   "machine learning",
+   4
+  ],
+  [
+   "data visualization",
+   3
+  ],
+  [
+   "javascript",
+   3
+  ],
+  [
+   "power bi",
+   2
+  ],
+  [
+   "sql",
+   2
+  ],
+  [
+   "forecasting",
+   2
+  ]
+ ],
+ "split": "test",
+ "model": "baseline-dict",
+ "prompt_version": "rules-v2-2d9ac5",
+ "n_gold": 50,
+ "n_human_edited": 0,
+ "n_human_verified": 0
+}

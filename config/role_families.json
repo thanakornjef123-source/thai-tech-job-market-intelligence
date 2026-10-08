@@ -1,0 +1,91 @@
+{
+  "_comment": "จัดกลุ่มตำแหน่งจากชื่อตำแหน่ง ตรวจตามลำดับ กลุ่มแรกที่ตรงชนะ (ไม่สนตัวพิมพ์เล็กใหญ่) กลุ่มเดียวกันซ้ำได้หลายช่วง — ช่วงเฉพาะเจาะจงมาก่อนช่วงกว้าง อธิบายไว้ใน README",
+  "order": [
+    [
+      "SA",
+      [
+        "system[s]? analyst",
+        "solution[s]? analyst",
+        "it business analyst",
+        "application specialist",
+        "people tech(nology)? analyst"
+      ]
+    ],
+    [
+      "BA",
+      [
+        "business analyst",
+        "insights analyst",
+        "strategy (&|and) analytics",
+        "product operations analyst"
+      ]
+    ],
+    [
+      "Product",
+      [
+        "product (manager|owner)"
+      ]
+    ],
+    [
+      "DS/ML",
+      [
+        "data scien(tist|ce)",
+        "applied scientist",
+        "research scientist",
+        "machine learning",
+        "\\bai\\s*/\\s*ml\\b",
+        "\\bai (engineer|scientist)\\b",
+        "\\bllm\\b"
+      ]
+    ],
+    [
+      "DA",
+      [
+        "data analyst",
+        "\\bbi\\b",
+        "business intelligence"
+      ]
+    ],
+    [
+      "Data Eng",
+      [
+        "data engineer",
+        "analytics engineer",
+        "data platform"
+      ]
+    ],
+    [
+      "Software Eng",
+      [
+        "software (engineer|developer|engineering)",
+        "devops",
+        "\\bsre\\b",
+        "security (engineer|analyst|operation|architect)"
+      ]
+    ],
+    [
+      "DA",
+      [
+        "analytics",
+        "analyst"
+      ]
+    ],
+    [
+      "Software Eng",
+      [
+        "software",
+        "developer",
+        "engineer",
+        "architect",
+        "technical lead",
+        "tech lead",
+        "\\bqa\\b"
+      ]
+    ]
+  ],
+  "default": "Other tech",
+  "_changelog": [
+    "2026-10-07: ย้าย Product มาก่อน Software Eng เพราะ 'Product Manager - Developer Experience' ถูกจัดเป็น Software Eng จากคำว่า developer",
+    "2026-10-08: แยกกฎ DA/Software Eng เป็นช่วงเฉพาะก่อนช่วงกว้าง — เดิมคำว่า analytics/analyst ใน DA มาก่อน Data Eng/Product/Software ทำให้ 'Senior Data Engineer (Analytics Platform)', 'Product Manager, Data Analytics', 'Analytics Engineer' ถูกจัดเป็น DA; เพิ่ม data science, applied scientist, AI/ML, security engineer/analyst"
+  ]
+}
