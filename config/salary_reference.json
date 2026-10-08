@@ -1,0 +1,22 @@
+{
+  "_comment": "ช่วงเงินเดือนอ้างอิงจากแหล่งภายนอก (ไม่ได้มาจากประกาศงานในระบบ) ใช้แสดงในแดชบอร์ดส่วนเงินเดือน · min/max = บาทต่อเดือน · null = แหล่งข้อมูลไม่รายงานช่วงนั้น · ตรวจทานกับหน้าเว็บต้นทางเมื่อ 2026-10-08",
+  "source": {
+    "name": "Adecco Thailand Salary Guide — E-Salary Search",
+    "url": "https://www.adecco.com/en-th/salary-guide/search",
+    "retrieved": "2026-10-08",
+    "currency": "THB",
+    "period": "month",
+    "note_th": "ข้อมูลสำรวจตลาดของ Adecco Thailand (หมวด Information Technology) ไม่ได้มาจากประกาศที่ระบบรวบรวม",
+    "note_en": "Adecco Thailand market survey (Information Technology category); not derived from the postings collected by this system"
+  },
+  "bands": ["0-3", "3-5", "5-7", "7+"],
+  "roles": {
+    "BA":           {"source_title": "Business Analyst",               "url_position": "Business Analyst",               "ranges": [[25000, 60000], [50000, 80000], [80000, 130000], [100000, 200000]]},
+    "SA":           {"source_title": "System Analyst",                 "url_position": "System Analyst",                 "ranges": [[25000, 40000], [40000, 100000], [50000, 100000], [70000, 120000]]},
+    "DA":           {"source_title": "Data Analyst",                   "url_position": "Data Analyst",                   "ranges": [[25000, 40000], [40000, 80000], [80000, 120000], [80000, 150000]]},
+    "DS/ML":        {"source_title": "Data Scientist / Data Engineer", "url_position": "Data Scientist / Data Engineer", "ranges": [[40000, 80000], [50000, 120000], [80000, 150000], [100000, 150000]]},
+    "Data Eng":     {"source_title": "Data Scientist / Data Engineer", "url_position": "Data Scientist / Data Engineer", "ranges": [[40000, 80000], [50000, 120000], [80000, 150000], [100000, 150000]]},
+    "Software Eng": {"source_title": "Software Engineer",              "url_position": "Software Engineer",              "ranges": [[40000, 60000], [60000, 100000], [60000, 120000], [150000, 200000]]},
+    "Product":      {"source_title": "Product Manager",                "url_position": "Product Manager",                "ranges": [null, [50000, 100000], [60000, 120000], [80000, 130000]]}
+  }
+}

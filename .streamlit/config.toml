@@ -1,0 +1,16 @@
+# ตั้งค่าแดชบอร์ด (ใช้เฉพาะโปรเจกต์นี้)
+[theme]
+base = "light"
+primaryColor = "#1d5cb0"
+backgroundColor = "#f5f6f8"
+secondaryBackgroundColor = "#eceff3"
+textColor = "#1a2433"
+
+[client]
+toolbarMode = "minimal"      # ซ่อนปุ่ม Deploy
+
+[browser]
+gatherUsageStats = false     # ไม่ส่งสถิติการใช้งานไปให้ Streamlit
+
+[server]
+headless = true              # ไม่ถามอีเมลตอนเปิดครั้งแรก และไม่เปิดเบราว์เซอร์เอง (start.bat เป็นตัวเปิดเบราว์เซอร์และจำกัดให้เข้าได้เฉพาะเครื่องนี้)
