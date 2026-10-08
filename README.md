@@ -101,7 +101,7 @@ Greenhouse / Lever API ─► raw (JSON ต้นฉบับ ไม่แก้
 เก็บวันละครั้ง หน่วง 2 วินาทีต่อคำขอ ระบุตัวตนผ่าน User-Agent ไม่เรียก endpoint สำหรับการสมัครงาน และไม่เก็บข้อมูลส่วนบุคคล รายละเอียดการตรวจเงื่อนไขของแต่ละแหล่งอยู่ใน [`SOURCES.md`](SOURCES.md) · Collected once per day with a 2-second delay per request and an identifying User-Agent; no application endpoints are called and no personal data is stored.
 
 ## โครงสร้างโปรเจกต์ · Project structure
-
+```
 
 app.py                  Streamlit dashboard (Thai / English)
 src/                    pipeline modules (collect, stage, dedupe, extract, baseline, evaluate, marts, snapshot, ...)
