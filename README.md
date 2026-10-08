@@ -102,7 +102,7 @@ Greenhouse / Lever API ─► raw (JSON ต้นฉบับ ไม่แก้
 
 ## โครงสร้างโปรเจกต์ · Project structure
 
-```
+
 app.py                  Streamlit dashboard (Thai / English)
 src/                    pipeline modules (collect, stage, dedupe, extract, baseline, evaluate, marts, snapshot, ...)
 config/                 sources, filters, role-family rules, skill dictionary, salary reference, site settings
