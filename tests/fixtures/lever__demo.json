@@ -1,0 +1,5 @@
+[
+{"id":"a1","text":"Senior System Analyst","hostedUrl":"https://jobs.lever.co/demo/a1","categories":{"location":"Remote","allLocations":["Remote","Bangkok, Thailand"],"team":"Engineering"},"country":"TH","createdAt":1759800000000,"descriptionPlain":"We need BPMN.","lists":[{"text":"Requirements","content":"<li>SQL</li><li>Power BI</li>"}],"additionalPlain":"","salaryRange":{"currency":"THB","interval":"per-month-salary","min":60000,"max":90000}},
+{"id":"a2","text":"Sales Engineer","hostedUrl":"x","categories":{"location":"Bangkok"},"country":"TH","descriptionPlain":"x"},
+{"id":"a3","text":"Software Engineer","hostedUrl":"x","categories":{"location":"Singapore"},"country":"SG","descriptionPlain":"x"}
+]

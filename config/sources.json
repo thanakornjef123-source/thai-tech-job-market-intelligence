@@ -1,0 +1,27 @@
+{
+  "_comment": "รายชื่อบริษัทที่จะเก็บ ตรวจเงื่อนไขแล้วใน SOURCES.md (2026-10-07). token คือส่วนท้าย URL ของหน้า jobs ของบริษัท",
+  "user_agent": "thai-tech-jobs-student-project/0.1 (educational, non-commercial; once per day)",
+  "delay_seconds": 2.0,
+  "greenhouse": [
+    "agoda",
+    "sertis",
+    "xendit",
+    "thoughtworks"
+  ],
+  "lever": [
+    "Coda",
+    "binance",
+    "lalamove",
+    "canarytechnologies",
+    "portcast",
+    "cargo-partner",
+    "ajax"
+  ],
+  "_removed": {
+    "tsmg": "2026-10-07: 4,360 ประกาศทั่วโลก ใช้เวลาเก็บ ~6 นาที ประกาศในไทยเป็นงานเก็บข้อมูล AI/ภาคสนาม ไม่ใช่สายเทค",
+    "rws": "2026-10-07: ประกาศในไทยเป็นงานถอดเสียง/ประเมินเสียง AI เท่านั้น"
+  },
+  "_added": {
+    "sertis, xendit, thoughtworks": "2026-10-07: พบจาก src.discover (ลอง 60 ชื่อ) มีประกาศสายเทคในไทย 11 / 1 / 1"
+  }
+}

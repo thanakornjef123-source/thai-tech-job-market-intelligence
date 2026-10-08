@@ -1,0 +1,69 @@
+{
+  "_comment": "กฎกรอง เขียนไว้ชัดเพื่ออธิบายใน README ได้ แก้ได้โดยไม่ต้องแก้โค้ด (ไม่สนตัวพิมพ์เล็กใหญ่)",
+  "thailand_location_patterns": [
+    "thailand",
+    "bangkok",
+    "\\bbkk\\b",
+    "chiang mai",
+    "phuket",
+    "pattaya",
+    "chonburi",
+    "rayong",
+    "nonthaburi",
+    "samut prakan",
+    "กรุงเทพ",
+    "ไทย"
+  ],
+  "tech_title_patterns": [
+    "business analyst",
+    "system[s]? analyst",
+    "data analyst",
+    "\\bbi\\b",
+    "business intelligence",
+    "analytics",
+    "insights analyst",
+    "data (engineer|scientist|science|platform|governance|architect)",
+    "machine learning",
+    "\\bllm\\b",
+    "scientist",
+    "software",
+    "developer",
+    "engineer",
+    "programmer",
+    "devops",
+    "\\bsre\\b",
+    "cloud",
+    "security",
+    "\\bqa\\b",
+    "tester",
+    "test automation",
+    "product (manager|owner)",
+    "scrum",
+    "architect",
+    "technical lead",
+    "tech lead",
+    "\\bit\\b",
+    "infrastructure",
+    "database",
+    "\\berp\\b",
+    "\\bsap\\b"
+  ],
+  "tech_department_patterns": [
+    "technology",
+    "engineering",
+    "\\bit\\b",
+    "data",
+    "analytics",
+    "product",
+    "security",
+    "bi\\b"
+  ],
+  "generic_analyst_pattern": "analyst",
+  "exclude_title_patterns": [
+    "sales engineer",
+    "test driver"
+  ],
+  "_changelog": [
+    "2026-10-07: ตรวจด้วยตารอบแรก 87 ประกาศ เอาคำว่า AI/ML เดี่ยวๆ ออก (จับงาน data labeling/การตลาดเกิน) เพิ่ม architect, technical lead, scientist, LLM, insights analyst"
+  ]
+}
