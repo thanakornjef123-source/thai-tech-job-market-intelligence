@@ -41,6 +41,10 @@ if errorlevel 1 set FAILED=%FAILED% stats
 if errorlevel 1 set FAILED=%FAILED% marts
 %PY% -u -m src.snapshot >> %LOG% 2>&1
 if errorlevel 1 set FAILED=%FAILED% snapshot
+rem --- push the refreshed snapshot to GitHub (skipped quietly if Git for Windows is not installed)
+call publish.bat auto >> %LOG% 2>&1
+set PUBRC=%errorlevel%
+if "%PUBRC%"=="1" set FAILED=%FAILED% publish
 
 if defined FAILED goto :fail
 echo OK >> %LOG%

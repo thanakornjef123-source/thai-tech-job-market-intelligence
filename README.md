@@ -94,7 +94,7 @@ Greenhouse / Lever API ─► raw (JSON ต้นฉบับ ไม่แก้
 
 ## อัปเดตเว็บออนไลน์ · Updating the online demo
 
-`run_daily.bat` สร้าง `data/snapshot/` ใหม่ทุกวัน เมื่อต้องการอัปเดตเว็บออนไลน์ให้ commit และ push โฟลเดอร์นี้ (เช่น ผ่าน GitHub Desktop) แล้ว Streamlit Community Cloud จะโหลดข้อมูลใหม่เอง · `run_daily.bat` refreshes `data/snapshot/` daily; commit and push it to update the deployed app.
+`run_daily.bat` สร้าง `data/snapshot/` ใหม่ทุกวัน แล้วเรียก `publish.bat` เพื่อ commit และ push ข้อมูลชุดนี้ขึ้น GitHub เอง (Streamlit Community Cloud โหลดข้อมูลใหม่อัตโนมัติ) ต้องติดตั้ง [Git for Windows](https://git-scm.com/download/win) และดับเบิลคลิก `publish.bat` หนึ่งครั้งเพื่อเข้าสู่ระบบ GitHub · `run_daily.bat` refreshes `data/snapshot/` and calls `publish.bat` to commit and push it; requires Git for Windows and a one-time sign-in by running `publish.bat` manually.
 
 ## แหล่งข้อมูลและแนวปฏิบัติ · Data sources and practice
 
