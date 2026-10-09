@@ -4,7 +4,6 @@
 
 **ไทย** — ระบบเก็บและวิเคราะห์ประกาศรับสมัครงานสายเทคโนโลยีในประเทศไทยแบบรายวัน ดึงข้อมูลจาก API สาธารณะอย่างเป็นทางการของระบบรับสมัครงาน (Greenhouse, Lever) คัดเฉพาะตำแหน่งสายเทคในไทย ตัดประกาศซ้ำ สกัดทักษะ ระดับงาน และเงินเดือนด้วย LLM (Gemini) เทียบกับวิธีพจนานุกรม วัดความแม่นยำกับชุดทดสอบ แล้วแสดงผลบนแดชบอร์ด
 
-**English** — A daily pipeline that collects tech job postings located in Thailand from the official public APIs of applicant-tracking systems (Greenhouse, Lever), filters and deduplicates them, extracts skills, seniority and salary with an LLM (Gemini) alongside a dictionary baseline, evaluates extraction accuracy against a test set, and presents the results in a bilingual (Thai/English) dashboard.
 
 ![Dashboard screenshot](docs/screenshot.png)
 
