@@ -85,9 +85,6 @@ Greenhouse / Lever API ─► raw (JSON ต้นฉบับ ไม่แก้
 - Daily collection runs only while the host computer is on and logged in; the online demo shows data as of the latest snapshot.
 - Trends require at least 14 days of data.
 
-## อัปเดตเว็บออนไลน์ · Updating the online demo
-
-`run_daily.bat` สร้าง `data/snapshot/` ใหม่ทุกวัน แล้วเรียก `publish.bat` เพื่อ commit และ push ข้อมูลชุดนี้ขึ้น GitHub เอง (Streamlit Community Cloud โหลดข้อมูลใหม่อัตโนมัติ) ใช้ Git ที่มากับ GitHub Desktop (หรือ Git for Windows) และต้องดับเบิลคลิก `publish.bat` หนึ่งครั้งเพื่อเข้าสู่ระบบ GitHub · `run_daily.bat` refreshes `data/snapshot/` and calls `publish.bat` to commit and push it; uses the Git bundled with GitHub Desktop (or Git for Windows) and needs a one-time sign-in by running `publish.bat` manually.
 
 ## แหล่งข้อมูลและแนวปฏิบัติ · Data sources and practice
 
