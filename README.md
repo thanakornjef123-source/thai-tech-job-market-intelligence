@@ -77,19 +77,11 @@ Greenhouse / Lever API ─► raw (JSON ต้นฉบับ ไม่แก้
 - การเก็บรายวันทำงานเมื่อเครื่องเปิดและเข้าสู่ระบบอยู่ เว็บออนไลน์แสดงข้อมูล ณ วันที่อัปเดต snapshot ล่าสุด
 - แนวโน้มต้องใช้ข้อมูลอย่างน้อย 14 วัน
 
-**English**
-- Postings come from company applicant-tracking systems only; this is not a view of the whole Thai labour market. Most employers are large or multinational, nearly all postings are in English, and one company (Agoda) accounts for about 60% of them.
-- Major Thai job boards (JobsDB, JobThai, LinkedIn, Indeed) prohibit or do not clearly permit automated collection and are not used (see `SOURCES.md`).
-- Salaries are rarely stated in these postings; the salary ranges shown come from an external survey (Adecco Thailand Salary Guide) and are displayed separately.
-- The Gemini free tier has a daily quota, so LLM extraction progresses gradually; the dictionary baseline fills the gap meanwhile.
-- Daily collection runs only while the host computer is on and logged in; the online demo shows data as of the latest snapshot.
-- Trends require at least 14 days of data.
 
 
 ## แหล่งข้อมูลและแนวปฏิบัติ · Data sources and practice
 
-เก็บวันละครั้ง หน่วง 2 วินาทีต่อคำขอ ระบุตัวตนผ่าน User-Agent ไม่เรียก endpoint สำหรับการสมัครงาน และไม่เก็บข้อมูลส่วนบุคคล รายละเอียดการตรวจเงื่อนไขของแต่ละแหล่งอยู่ใน [`SOURCES.md`](SOURCES.md) · Collected once per day with a 2-second delay per request and an identifying User-Agent; no application endpoints are called and no personal data is stored.
-
+เก็บวันละครั้ง หน่วง 2 วินาทีต่อคำขอ ระบุตัวตนผ่าน User-Agent ไม่เรียก endpoint สำหรับการสมัครงาน และไม่เก็บข้อมูลส่วนบุคคล รายละเอียดการตรวจเงื่อนไขของแต่ละแหล่งอยู่ใน [`SOURCES.md`](SOURCES.md) 
 ## โครงสร้างโปรเจกต์ · Project structure
 ```
 
