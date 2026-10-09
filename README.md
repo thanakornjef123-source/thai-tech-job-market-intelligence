@@ -19,13 +19,7 @@
 
 ตัวเลขทุกตัวพร้อมวันที่และคำสั่งที่ใช้คำนวณอยู่ใน [`results.md`](results.md) · Every figure is logged with its date and command in `results.md`.
 
-## วิธีรันบนเครื่อง · Run locally
 
-**Windows (ดับเบิลคลิก)**
-1. ติดตั้ง Python 3.10 ขึ้นไป (เลือก "Add python.exe to PATH")
-2. ดับเบิลคลิก **`start.bat`** — ติดตั้งไลบรารีที่ขาด สร้างฐานข้อมูล แล้วเปิดแดชบอร์ดในเบราว์เซอร์ที่ http://127.0.0.1:8501 (ปิดหน้าต่างดำเพื่อหยุด)
-3. (ไม่บังคับ) ดับเบิลคลิก **`setup_daily_task.bat`** เพื่อให้เก็บข้อมูลอัตโนมัติทุกวัน 09:07 ผ่าน Windows Task Scheduler
-4. (ไม่บังคับ) คัดลอก `.env.example` เป็น `.env` แล้วใส่ Gemini API key (ฟรีที่ https://aistudio.google.com/apikey) เพื่อสกัดด้วย LLM
 
 **Any OS (command line)**
 ```bash
